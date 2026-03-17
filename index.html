@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>学术猹 - 中国权威、专业的论文一站式处理平台</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="texture-vancouver">
+  <nav class="split-nav" id="top">
+    <div class="nav-left">
+      <a href="#features">流程</a>
+      <a href="#pricing">定价</a>
+    </div>
+    <a href="#top" class="nav-logo">
+      <svg class="logo-mark"><use href="assets/icons.svg#logo"></use></svg>
+      学术猹
+    </a>
+    <div class="nav-right">
+      <a href="#cases">案例墙</a>
+      <a href="#faq">FAQ</a>
+      <a href="#start" class="nav-cta">立即查重</a>
+    </div>
+  </nav>
+
+  <section class="hero-b clip-round-bottom" id="start">
+    <div class="hero-b__left">
+      <p class="hero-kicker">中国权威、专业的论文一站式处理平台</p>
+      <h1 class="hero-b__title js-hero-title">查重、查AI、<br>降重<span>一次完成</span></h1>
+      <p class="hero-b__subtitle js-hero-subtitle">Turnitin 官方合作，查重/查AI结果与院校和期刊一致。降重、降AI可一键<br>压至 10% 内，不达标全额退款。</p>
+      <div class="hero-b__actions js-hero-cta">
+        <button class="hero-b__btn primary">上传论文</button>
+        <button class="hero-b__btn ghost">免费查AI</button>
+      </div>
+      <div class="trust-strip">
+        <div class="trust-item">
+          <svg class="trust-icon"><use href="assets/icons.svg#shield"></use></svg>
+          官方合作 · 权威
+        </div>
+        <div class="trust-item">
+          <svg class="trust-icon"><use href="assets/icons.svg#scale"></use></svg>
+          率值保障 · 专业
+        </div>
+        <div class="trust-item">
+          <svg class="trust-icon"><use href="assets/icons.svg#lock"></use></svg>
+          绝不收录 · 安全
+        </div>
+      </div>
+    </div>
+    <div class="hero-b__right js-hero-visual" data-parallax="true"></div>
+    <div class="hero-overlay">
+      <div class="upload-modal" id="upload-modal">
+        <div class="upload-header">
+          <div class="upload-title">
+            <span class="upload-badge">极速</span>
+            大文件拖拽上传
+          </div>
+          <button class="upload-close" aria-label="close">×</button>
+        </div>
+        <div class="upload-drop js-dropzone">
+          <input type="file" id="file-input" class="file-input" accept=".doc,.docx,.pdf" />
+          <div class="drop-visual">
+            <svg class="upload-icon"><use href="assets/icons.svg#upload"></use></svg>
+            <div class="drop-title">拖拽论文到这里</div>
+            <div class="drop-sub">支持 DOC/DOCX/PDF，单次最高 200MB</div>
+          </div>
+          <button class="drop-btn">选择文件</button>
+        </div>
+        <div class="upload-footer">
+          <div class="upload-meta">
+            <span>查重 + 查AI</span>
+            <span class="dot"></span>
+            <span>降重/降AI</span>
+          </div>
+          <div class="upload-speed">10 秒出结果报告</div>
+        </div>
+      </div>
+      <div class="hero-glow"></div>
+    </div>
+  </section>
+
+  <section class="variant-c-section section-dissolve" id="features">
+    <div class="wrapper">
+      <div class="c-header">
+        <h2>权威检测一条龙</h2>
+      </div>
+
+      <div class="c-timeline-wrapper">
+        <div class="c-timeline-line"></div>
+        <div class="c-timeline-line-progress js-timeline-progress"></div>
+
+        <div class="c-timeline-node-item js-timeline-item">
+          <div class="c-node">1</div>
+          <div class="c-content">
+            <h4 class="c-headline">上传论文</h4>
+            <p class="c-body">拖拽上传，自动识别格式和字数，秒级分段解析。</p>
+          </div>
+        </div>
+
+        <div class="c-timeline-node-item js-timeline-item">
+          <div class="c-node">2</div>
+          <div class="c-content">
+            <h4 class="c-headline">权威查重/查AI</h4>
+            <p class="c-body">Turnitin 官方合作，结果与院校、期刊一致，率值精准可复核。</p>
+          </div>
+        </div>
+
+        <div class="c-timeline-node-item js-timeline-item">
+          <div class="c-node">3</div>
+          <div class="c-content">
+            <h4 class="c-headline">一键降重/降AI</h4>
+            <p class="c-body">可一键降至 10% 内，不达标全额退款，支持知网/维普/万方/格子达复检。</p>
+          </div>
+        </div>
+
+        <div class="c-timeline-node-item js-timeline-item">
+          <div class="c-node">4</div>
+          <div class="c-content">
+            <h4 class="c-headline">报告下载</h4>
+            <p class="c-body">完整对比报告与可追溯链路，提交前一键导出。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pricing clip-parallelogram" id="pricing">
+    <div class="container">
+      <div class="pricing-header">
+        <h2 class="text-display">透明定价，<br><span class="text-accent">按需选择</span></h2>
+        <div class="billing-toggle-wrapper js-billing-toggle" data-billing="monthly">
+          <div class="toggle-indicator"></div>
+          <button class="billing-toggle-btn active" data-target="monthly">单次</button>
+          <button class="billing-toggle-btn" data-target="annual">包月（省 20%）</button>
+        </div>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="pricing-card js-pricing-card">
+          <div class="plan-name text-muted">基础查重</div>
+          <div class="price-wrapper">
+            <span class="price-currency">¥</span>
+            <span class="price-amount" data-monthly="18" data-annual="149">18</span>
+            <span class="price-period text-muted">/篇</span>
+          </div>
+          <p class="plan-desc text-muted">适合课程论文与初稿检测。</p>
+          <ul class="feature-list">
+            <li><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span>权威查重报告</span></li>
+            <li><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span>匹配来源可追溯</span></li>
+            <li><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span>10 秒出报告</span></li>
+          </ul>
+          <button class="btn btn-outline">开始查重</button>
+        </div>
+
+        <div class="pricing-card pro js-pricing-card">
+          <div class="ribbon-wrapper"><div class="ribbon">推荐</div></div>
+          <div class="plan-name text-muted">查重 + 查AI</div>
+          <div class="price-wrapper">
+            <span class="price-currency">¥</span>
+            <span class="price-amount" data-monthly="28" data-annual="229">28</span>
+            <span class="price-period text-muted">/篇</span>
+          </div>
+          <p class="plan-desc text-muted">提交前全方位风险排查。</p>
+          <ul class="feature-list">
+            <li><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span>官方查重 + 查AI</span></li>
+            <li><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span>率值与院校一致</span></li>
+            <li><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span>可视化风险区</span></li>
+            <li><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span>AI 概率解释</span></li>
+          </ul>
+          <button class="btn btn-primary">立即检测</button>
+        </div>
+
+        <div class="pricing-card js-pricing-card">
+          <div class="plan-name text-muted">一站式降重</div>
+          <div class="price-wrapper">
+            <span class="price-currency">¥</span>
+            <span class="price-amount" data-monthly="128" data-annual="899">128</span>
+            <span class="price-period text-muted">/篇</span>
+          </div>
+          <p class="plan-desc text-muted">一键降至 10% 内，不达标全额退款。</p>
+          <ul class="feature-list">
+            <li><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span>降重 + 降AI</span></li>
+            <li><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span>知网/维普/万方复检</span></li>
+            <li><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span>隐私不留痕</span></li>
+          </ul>
+          <button class="btn btn-outline">获取方案</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-testimonials clip-scallop" id="cases">
+    <div class="container">
+      <div class="testimonials-header">
+        <h2 class="text-display">真实案例墙</h2>
+      </div>
+      <div class="bento-grid" id="testimonial-grid">
+        <div class="testimonial-card tc-1 js-testimonial">
+          <div class="quote-mark">“</div>
+          <div class="testimonial-content">
+            <p class="pull-quote">初稿查重 27%，一键降到 7.8%，学校复检一致。</p>
+            <div class="attribution">
+              <div class="avatar">硕</div>
+              <div class="author-meta">
+                <span class="author-name">硕士论文</span>
+                <span class="author-company text-muted">管理学 · 985</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card tc-2 js-testimonial">
+          <div class="quote-mark">“</div>
+          <div class="testimonial-content">
+            <p class="pull-quote">查AI报告指出 3 段风险区，改完后概率下降明显，期刊外审顺利通过。</p>
+            <div class="attribution">
+              <div class="avatar">博</div>
+              <div class="author-meta">
+                <span class="author-name">博士论文</span>
+                <span class="author-company text-muted">计算机 · 双一流</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card tc-3 js-testimonial">
+          <div class="quote-mark">“</div>
+          <div class="testimonial-content">
+            <p class="pull-quote">Turnitin 官方合作，导师认可，数据也不收录。</p>
+            <div class="attribution">
+              <div class="avatar">期</div>
+              <div class="author-meta">
+                <span class="author-name">期刊投稿</span>
+                <span class="author-company text-muted">医学 · 核心期刊</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card tc-4 js-testimonial">
+          <div class="quote-mark">“</div>
+          <div class="testimonial-content">
+            <p class="pull-quote">10 秒出结果，改完再查，效率提升太多。</p>
+            <div class="attribution">
+              <div class="avatar">研</div>
+              <div class="author-meta">
+                <span class="author-name">研究生</span>
+                <span class="author-company text-muted">教育学 · 211</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured tc-featured js-testimonial">
+          <div class="quote-mark">“</div>
+          <div class="testimonial-content">
+            <p class="pull-quote">从查重、查AI到降重，整条链路在一个平台完成，风险降低、时间省一半。</p>
+            <div class="attribution">
+              <div class="avatar">官</div>
+              <div class="author-meta">
+                <span class="author-name">教研团队</span>
+                <span class="author-company text-muted">高校教务</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-section variant-a section-rule" id="faq">
+    <div class="v-a-container">
+      <div>
+        <h2 class="v-a-title">FAQ</h2>
+      </div>
+      <div class="v-a-right">
+        <div class="v-a-item js-faq-item" data-open="false">
+          <button class="v-a-trigger" aria-expanded="false">
+            <span class="v-a-question">查重/查AI结果是否与院校一致？</span>
+            <svg class="v-a-icon" viewBox="0 0 24 24" fill="none"><line class="horizontal" x1="4" y1="12" x2="20" y2="12"/><line class="vertical" x1="12" y1="4" x2="12" y2="20"/></svg>
+          </button>
+          <div class="v-a-content-grid"><div class="v-a-content-inner">
+            <p class="v-a-answer">我们与 Turnitin 官方合作，查重/查AI率值与院校、期刊一致，可复检验证。</p>
+          </div></div>
+        </div>
+        <div class="v-a-item js-faq-item" data-open="false">
+          <button class="v-a-trigger" aria-expanded="false">
+            <span class="v-a-question">降重不达标怎么办？</span>
+            <svg class="v-a-icon" viewBox="0 0 24 24" fill="none"><line class="horizontal" x1="4" y1="12" x2="20" y2="12"/><line class="vertical" x1="12" y1="4" x2="12" y2="20"/></svg>
+          </button>
+          <div class="v-a-content-grid"><div class="v-a-content-inner">
+            <p class="v-a-answer">支持一键降至 10% 内，不达标全额退款，并可使用知网/维普/万方/格子达复检。</p>
+          </div></div>
+        </div>
+        <div class="v-a-item js-faq-item" data-open="false">
+          <button class="v-a-trigger" aria-expanded="false">
+            <span class="v-a-question">论文会被收录吗？</span>
+            <svg class="v-a-icon" viewBox="0 0 24 24" fill="none"><line class="horizontal" x1="4" y1="12" x2="20" y2="12"/><line class="vertical" x1="12" y1="4" x2="12" y2="20"/></svg>
+          </button>
+          <div class="v-a-content-grid"><div class="v-a-content-inner">
+            <p class="v-a-answer">绝不收录，检测完成后及时清理数据，不留痕迹，保护论文隐私。</p>
+          </div></div>
+        </div>
+        <div class="v-a-item js-faq-item" data-open="false">
+          <button class="v-a-trigger" aria-expanded="false">
+            <span class="v-a-question">支持哪些文件类型与字数？</span>
+            <svg class="v-a-icon" viewBox="0 0 24 24" fill="none"><line class="horizontal" x1="4" y1="12" x2="20" y2="12"/><line class="vertical" x1="12" y1="4" x2="12" y2="20"/></svg>
+          </button>
+          <div class="v-a-content-grid"><div class="v-a-content-inner">
+            <p class="v-a-answer">支持 DOC/DOCX/PDF，智能分段识别，超大文件亦可稳定上传。</p>
+          </div></div>
+        </div>
+        <div class="v-a-item js-faq-item" data-open="false">
+          <button class="v-a-trigger" aria-expanded="false">
+            <span class="v-a-question">是否支持团队/机构方案？</span>
+            <svg class="v-a-icon" viewBox="0 0 24 24" fill="none"><line class="horizontal" x1="4" y1="12" x2="20" y2="12"/><line class="vertical" x1="12" y1="4" x2="12" y2="20"/></svg>
+          </button>
+          <div class="v-a-content-grid"><div class="v-a-content-inner">
+            <p class="v-a-answer">支持教研团队、院系批量方案与专属客服，提供发票与专属通道。</p>
+          </div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-cta js-cta-section clip-diagonal-bl" id="cta">
+    <div class="cta-glow"></div>
+    <div class="container">
+      <div class="cta-container">
+        <div class="cta-text-wrap">
+          <h2 class="text-display cta-headline">
+            <span>把风险清零，</span>
+            <span class="hl-accent">把结果提交。</span>
+          </h2>
+          <p class="cta-subtext">现在上传论文，10 秒获得权威检测报告与可执行修改建议。</p>
+          <svg class="cta-arrow" viewBox="0 0 200 200">
+            <path d="M 20,20 C 100,20 180,80 160,160" />
+            <path d="M 120,160 L 160,160 L 160,120" />
+          </svg>
+        </div>
+        <div class="cta-actions-wrap">
+          <div class="cta-actions">
+            <button class="btn btn-primary btn-magnetic js-magnetic">立即上传查重</button>
+            <a href="#start" class="btn-ghost">先体验查AI</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
